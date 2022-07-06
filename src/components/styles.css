@@ -1,0 +1,64 @@
+button{
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.wrapper {
+    background-color: #000000;
+    border-radius: 20px;
+    padding: 2em;
+}
+
+.operators{
+    background-color: #FF9500;
+    color: #ffffff
+}
+
+.numbers{
+    background-color: #505050;
+    color: #ffffff
+}
+
+.equation{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2.8em;
+    margin-right: 18px;
+}
+
+.teste{
+    text-align:left ;
+    width: 6.3em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 50px;
+    margin: 5px;
+    background-color: #505050;
+    color: #ffffff;
+    
+}
+
+
+.footer{
+    color: white;
+    background-color: rgb(63, 33, 33);
+    height: 40px;
+    width: 100%;
+    bottom: 0px;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
